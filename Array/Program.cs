@@ -28,12 +28,10 @@ namespace Array
         public static void ForLoops()
         {
         int[] numb = { 1, 3, 6, 9, 24, 33, 41, 56 };
-        for(int sum = 0; sum < numb.Length; sum++)
+            for (int sum = 0; sum < numb.Length; sum++)
             {
-                Console.WriteLine(numb[sum]);
+                Console.WriteLine(numb[sum]);;
             }
-            Array.Clear(numb, 1, 5);
-            Console.WriteLine(numb[sum]);
         }
     }
 }
